@@ -106,8 +106,16 @@ body {
 
 /* Media query untuk HP kecil */
 @media (max-width: 480px) {
+    body {
+        background: url('asligaya-portrait.jpg') center center / cover no-repeat;
+    }
+
     .container h2 { font-size: 12vw; }
-    .link { font-size: 5vw; padding: 10px 0; }
+    .link {
+        padding: 18px 0;   /* tombol lebih tebal */
+        font-size: 5vw;    /* font sedikit lebih besar */
+        border-radius: 12px;
+    }
     .container img { width: 100px; height: 100px; }
     .separator { width: 40%; }
 }
